@@ -8,9 +8,17 @@ body {
   height: 72px;
   background: darkmagenta;
   color: white;
+  font-weight: bold;
+  font-size: 32px;
+  padding: 16px;
+  display: flex;
+  align-items: center;
 }
 
 .footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 72px;
   background: #eee;
   color: darkmagenta;
@@ -20,10 +28,37 @@ body {
   width: 300px;
   background: royalblue;
   box-sizing: border-box;
+  display: flex;
+  flex-shrink: 0;
+  padding: 16px;
+  height: 520px;
 }
 
 .card {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+}
+
+ul{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+  font-size: 24px;
+  color: white;
+}
+.container{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.card-containers{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 20px;
+}
+.card{
+  width: 300px;
 }
